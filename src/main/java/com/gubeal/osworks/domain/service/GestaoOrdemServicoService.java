@@ -5,8 +5,8 @@ import java.time.OffsetDateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.gubeal.osworks.domain.expecption.EntidadeNaoEncontradaException;
-import com.gubeal.osworks.domain.expecption.NegocioException;
+import com.gubeal.osworks.domain.exception.EntidadeNaoEncontradaException;
+import com.gubeal.osworks.domain.exception.NegocioException;
 import com.gubeal.osworks.domain.model.Cliente;
 import com.gubeal.osworks.domain.model.Comentario;
 import com.gubeal.osworks.domain.model.OrdemServico;

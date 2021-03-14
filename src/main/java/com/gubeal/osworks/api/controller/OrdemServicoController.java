@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.gubeal.osworks.api.model.OrdemServicoInput;
 import com.gubeal.osworks.api.model.OrdemServicoModel;
-import com.gubeal.osworks.domain.expecption.NegocioException;
 import com.gubeal.osworks.domain.model.OrdemServico;
 import com.gubeal.osworks.domain.repository.OrdemServicoRepository;
 import com.gubeal.osworks.domain.service.GestaoOrdemServicoService;

@@ -14,7 +14,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
-import com.gubeal.osworks.domain.expecption.NegocioException;
+import com.gubeal.osworks.domain.exception.NegocioException;
 
 @Entity
 public class OrdemServico {

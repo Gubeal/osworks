@@ -1,4 +1,4 @@
-package com.gubeal.osworks.domain.expecption;
+package com.gubeal.osworks.domain.exception;
 
 public class EntidadeNaoEncontradaException extends NegocioException {
 

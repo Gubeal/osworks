@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.gubeal.osworks.api.model.ComentarioInput;
 import com.gubeal.osworks.api.model.ComentarioModel;
-import com.gubeal.osworks.domain.expecption.EntidadeNaoEncontradaException;
+import com.gubeal.osworks.domain.exception.EntidadeNaoEncontradaException;
 import com.gubeal.osworks.domain.model.Comentario;
 import com.gubeal.osworks.domain.model.OrdemServico;
 import com.gubeal.osworks.domain.repository.OrdemServicoRepository;

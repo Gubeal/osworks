@@ -1,4 +1,4 @@
-package com.gubeal.osworks.domain.expecption;
+package com.gubeal.osworks.domain.exception;
 
 public class NegocioException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

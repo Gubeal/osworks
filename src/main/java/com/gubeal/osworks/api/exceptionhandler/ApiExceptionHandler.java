@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.gubeal.osworks.domain.expecption.EntidadeNaoEncontradaException;
-import com.gubeal.osworks.domain.expecption.NegocioException;
+import com.gubeal.osworks.domain.exception.EntidadeNaoEncontradaException;
+import com.gubeal.osworks.domain.exception.NegocioException;
 
 @ControllerAdvice
 public class ApiExceptionHandler extends ResponseEntityExceptionHandler{
